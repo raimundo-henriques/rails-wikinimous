@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&family=Roboto:wght@300&display=swap');
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #337AB7;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #23527C;
+}
