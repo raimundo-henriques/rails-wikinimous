@@ -15,7 +15,7 @@
  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&family=Roboto:wght@300&display=swap');
 
-h3 {
+h3, h2 {
   font-family: 'Roboto Slab', serif;
 }
 
@@ -35,4 +35,13 @@ a {
 a:hover {
   text-decoration: underline;
   color: #23527C;
+}
+
+nav {
+  background-color: rgb(248, 248, 248);
+  border-bottom: 1px solid #e7e7e7;
+}
+
+nav a:hover {
+  text-decoration: none;
 }

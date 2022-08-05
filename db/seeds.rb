@@ -9,7 +9,7 @@ Article.destroy_all
 
 10.times do
   title = "#{Faker::Hacker.adjective.capitalize} #{Faker::Hacker.noun} #{Faker::Hacker.ingverb} #{Faker::Hacker.noun}"
-  content = Faker::Lorem.paragraph * 5
+  content = Faker::Lorem.paragraphs.join('\n').gsub('\n', ' ')
   article = Article.new(title: title, content: content)
   article.save
 end
